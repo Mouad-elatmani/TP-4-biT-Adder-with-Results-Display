@@ -1,0 +1,89 @@
+|lab2
+a[0] => add1:adder0.a
+a[1] => add1:gen_adders:1:adder.a
+a[2] => add1:gen_adders:2:adder.a
+a[3] => add1:gen_adders:3:adder.a
+b[0] => add1:adder0.b
+b[1] => add1:gen_adders:1:adder.b
+b[2] => add1:gen_adders:2:adder.b
+b[3] => add1:gen_adders:3:adder.b
+cin => add1:adder0.cin
+sum[0] << add1:adder0.s
+sum[1] << add1:gen_adders:1:adder.s
+sum[2] << add1:gen_adders:2:adder.s
+sum[3] << add1:gen_adders:3:adder.s
+cout << add1:gen_adders:3:adder.cout
+HEX0[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+HEX3[0] <= <GND>
+HEX3[1] <= <VCC>
+HEX3[2] <= <VCC>
+HEX3[3] <= <GND>
+HEX3[4] <= <GND>
+HEX3[5] <= <GND>
+HEX3[6] <= <VCC>
+HEX2[0] <= <GND>
+HEX2[1] <= <VCC>
+HEX2[2] <= <VCC>
+HEX2[3] <= <GND>
+HEX2[4] <= <VCC>
+HEX2[5] <= <VCC>
+HEX2[6] <= <VCC>
+
+
+|lab2|add1:adder0
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|add1:\gen_adders:1:adder
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|add1:\gen_adders:2:adder
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|add1:\gen_adders:3:adder
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,65 @@
+# Reading E:/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/project_altera/TP_LAB/LAB2/lab2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab2
+# -- Compiling architecture Behavioral of lab2
+# ** Warning: E:/project_altera/TP_LAB/LAB2/lab2.vhd(46): Cannot associate port "s" of mode OUT with port "sum" of mode BUFFER.
+# ** Warning: E:/project_altera/TP_LAB/LAB2/lab2.vhd(49): Cannot associate port "s" of mode OUT with port "sum" of mode BUFFER.
+# vcom -93 -work work {E:/project_altera/TP_LAB/LAB2/Vhdl2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity add1
+# -- Compiling architecture Behavioral of add1
+# 
+vsim work.lab2
+# vsim work.lab2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab2(behavioral)
+# Loading work.add1(behavioral)
+add wave -position end  sim:/lab2/sum
+add wave -position end  sim:/lab2/cout
+add wave -position end  sim:/lab2/cin
+add wave -position end  sim:/lab2/b
+add wave -position end  sim:/lab2/a
+add wave -position end  sim:/lab2/HEX3
+add wave -position end  sim:/lab2/HEX2
+add wave -position end  sim:/lab2/HEX1
+add wave -position end  sim:/lab2/HEX0
+force -freeze sim:/lab2/a 1011 0
+force -freeze sim:/lab2/b 0111 0
+force -freeze sim:/lab2/cin 0 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /lab2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /lab2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /lab2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /lab2
+force -freeze sim:/lab2/a 1111 0
+force -freeze sim:/lab2/b 1111 0
+run
+force -freeze sim:/lab2/a 1001 0
+force -freeze sim:/lab2/b 0111 0
+run

@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\project_altera\TP_LAB\LAB2\simulation\modelsim
+Eadd1
+Z1 w1681555687
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\project_altera\TP_LAB\LAB2\simulation\modelsim
+Z5 8E:/project_altera/TP_LAB/LAB2/Vhdl2.vhd
+Z6 FE:/project_altera/TP_LAB/LAB2/Vhdl2.vhd
+l0
+L4
+VRAS]U@aS7DMU6RJ1SX=I71
+!s100 h7?7h>Id;]4;?mZ]2WEde2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1684228115.716000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/project_altera/TP_LAB/LAB2/Vhdl2.vhd|
+Z10 !s107 E:/project_altera/TP_LAB/LAB2/Vhdl2.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavioral
+R2
+R3
+DEx4 work 4 add1 0 22 RAS]U@aS7DMU6RJ1SX=I71
+l14
+L13
+VCW?8Q_=naWHiJ4>WHeB]H0
+!s100 K:D^a;goJMzdQf1mm:8HZ2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Elab2
+Z13 w1684220526
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8E:/project_altera/TP_LAB/LAB2/lab2.vhd
+Z16 FE:/project_altera/TP_LAB/LAB2/lab2.vhd
+l0
+L5
+VEF4TJd`F9]enQzGDTlJ;@3
+R7
+31
+Z17 !s108 1684228115.434000
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/project_altera/TP_LAB/LAB2/lab2.vhd|
+Z19 !s107 E:/project_altera/TP_LAB/LAB2/lab2.vhd|
+R11
+R12
+!s100 a;6;ez<L5kZSeSn[f0ED]0
+!i10b 1
+Abehavioral
+R14
+R2
+R3
+DEx4 work 4 lab2 0 22 EF4TJd`F9]enQzGDTlJ;@3
+l45
+L15
+VQMB<[DDXGT[oKAjP_f[?;2
+R7
+31
+R17
+R18
+R19
+R11
+R12
+!s100 :hl:ac7797e7igRMVB6EB1
+!i10b 1
